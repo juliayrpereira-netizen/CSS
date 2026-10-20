@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE</title>
+    <style>
+
+        .container{
+            background-color: aqua;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .card{
+            background-color: blueviolet;
+            height: 200px;
+        }
+        @media(max-width:800px){
+.card{
+    background-color:blue ;
+    font-size: 30px ;
+    color: azure;
+}
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">Julia</div>
+        <div class="card">Julia</div>
+        <div class="card">Julia</div>
+        <div class="card">Julia</div> 
+        <div class="card">Julia</div>
+        <div class="card">Julia</div>
+    </div>
+    
+</body>
+</html>
